@@ -1,0 +1,84 @@
+/* reset */
+html {
+	font-size: 62.5%;
+}
+p, h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100%;
+	background-color: #fff;
+	color: #000;
+	font-family: "Century Gothic", helvetica, arial, sans-serif;
+	font-size: 1.4em; /* equiv 14px */
+	line-height: 1.5; /* adapt to your design */
+	background-image: url(images/cube-pattern.jpg);
+	text-align: justify;
+	position: relative;
+}
+
+/* @media screen and (max-width: 480px) {
+	.vcard {
+		display: grid;
+		grid-template-rows: 25% 1fr 30%;
+		grid-row-gap: 3%;
+		}
+
+	.infos {grid-row: 1;}
+	.profile {grid-row: 2;}
+	.pic {grid-row: 3;}
+} */
+
+.grey {
+	color: grey;
+
+}
+.name {
+	color: #224639;
+	margin: 8rem 0 2rem 17%;
+}
+.vcard {
+	width: 70%;
+	background-color: #ffffffd4;
+	border-radius: 22px;
+	box-shadow: 0 0 3rem grey;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 25% 1fr 30%;
+	grid-column-gap: 3%;
+
+}
+.titre {
+	color: #68c9a6;
+	font-size: 2rem;
+	border-bottom: 1px solid grey;
+	width: 65%;
+	margin-bottom: 4rem;
+}
+.infos {
+	grid-column: 1;
+	padding: 2rem 0 2rem 2rem;
+
+}
+
+.icon-align {
+	display: flex;
+}
+.icon-align p, h4 {
+	font-weight: normal;
+	padding: 0 0 1rem 5rem;
+}
+.profile {
+	grid-column: 2;
+	margin: auto;
+}
+.pic {
+	text-align: center;
+	align-self: center;
+}
+.pic img {
+	width: 90%;
+	grid-column: 3;
+	border-radius: 10%;
+}
